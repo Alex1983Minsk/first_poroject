@@ -1,0 +1,56 @@
+.footer {
+    background-color: $footer_bg;
+    max-width: 100vw;
+    height: 25vh;
+    padding: 10px;
+    display: flex;
+ 
+    &__icons {
+        display: flex;
+        border: 1px solid $border;
+        border-radius: 15px;
+        margin: 3rem;
+    
+
+        &_lists {
+            display: flex;
+                &--list {
+                    margin: 1rem;
+                    padding: 0.5rem;
+                }
+        }
+    }
+
+    &__products {
+        display: flex;
+        border: 1px solid $border;
+        border-radius: 15px;
+        margin: 3rem;
+    
+        &_lists {
+            display: flex;
+
+            &--list {
+                margin: 1rem;
+                padding: 0.5rem;
+
+            }
+        }
+    }
+
+    &__menu {
+        display: flex;
+        border: 1px solid $border;
+        border-radius: 15px;
+        margin: 3rem;
+
+        &_lists {
+            display: flex;
+                                  
+            &--list {
+                margin: 1rem;
+                padding: 0.5rem;
+            }
+        }
+    }
+}
